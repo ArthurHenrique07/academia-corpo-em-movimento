@@ -36,4 +36,5 @@ Use da IA: Claude (Anthropic).
 - **O que pedi:** gerar o projeto Django a partir do documento de requisitos, com explicação de cada parte.
 - **O que a IA fez:** estrutura do projeto, modelos, painel admin, views, templates, comando de carga de dados e testes.
 - **O que eu conferi:** rodei os testes, cadastrei/exclui dados pelo painel, testei filtros, busca e a regra RN03, e li o código para entender cada parte.
-- (Ajuste este texto com o que você realmente fez.)
+- E assim finalizei.
+- 
