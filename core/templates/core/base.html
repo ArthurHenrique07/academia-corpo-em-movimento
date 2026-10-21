@@ -1,0 +1,22 @@
+{% load static %}<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titulo %}{{ academia.nome }}{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'core/estilo.css' %}">
+</head>
+<body>
+  <header>
+    <h1>{{ academia.nome }}</h1>
+    <nav>  <!-- RF08: menu com link para a outra página -->
+      <a href="{% url 'home' %}" {% if request.resolver_match.url_name == 'home' %}class="ativo"{% endif %}>Início</a>
+      <a href="{% url 'turmas' %}" {% if request.resolver_match.url_name == 'turmas' %}class="ativo"{% endif %}>Grade de turmas</a>
+    </nav>
+  </header>
+  <main>
+    {% block conteudo %}{% endblock %}
+  </main>
+  <footer>{{ academia.nome }} · {{ academia.endereco }} · {{ academia.telefone }}</footer>
+</body>
+</html>

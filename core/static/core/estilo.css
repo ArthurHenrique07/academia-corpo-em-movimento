@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; color: #222; background: #f4f6f8; }
+header { background: #0b5d4b; color: #fff; padding: 1rem 2rem; }
+header h1 { margin: 0 0 .5rem; font-size: 1.5rem; }
+nav a { color: #fff; margin-right: 1rem; text-decoration: none; padding: .25rem .5rem; border-radius: 4px; }
+nav a:hover, nav a.ativo { background: rgba(255, 255, 255, .25); }
+main { max-width: 900px; margin: 1.5rem auto; padding: 0 1rem; }
+.cartao { background: #fff; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+.cartao h3 { margin-top: 0; color: #0b5d4b; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: .6rem; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #0b5d4b; color: #fff; }
+footer { text-align: center; padding: 1rem; color: #666; font-size: .85rem; }
