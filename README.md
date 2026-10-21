@@ -5,7 +5,7 @@ Sistema web em Django com painel administrativo (modalidades e turmas) e duas p√
 
 ## Equipe
 - Arthur Henrique da Silva Vieira
-- (adicione aqui os demais integrantes, se houver)
+  
 
 ## Como rodar
 ```bash
@@ -37,4 +37,4 @@ Use da IA: Claude (Anthropic).
 - **O que a IA fez:** estrutura do projeto, modelos, painel admin, views, templates, comando de carga de dados e testes.
 - **O que eu conferi:** rodei os testes, cadastrei/exclui dados pelo painel, testei filtros, busca e a regra RN03, e li o c√≥digo para entender cada parte.
 - E assim finalizei.
-- 
+  
